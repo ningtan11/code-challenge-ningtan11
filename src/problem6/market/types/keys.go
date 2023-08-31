@@ -28,15 +28,9 @@ func KeyPrefix(p string) []byte {
 	return []byte(p)
 }
 
+// KVStore keys
 const (
-	MarketKey           = "Market-value-"
-	ControlledParamsKey = "ControlledParams-value-"
-	FeeTierKey          = "FeeTier-value-"
-	StakeEquivalenceKey = "StakeEquivalence-value-"
-
-	// Transient store
-	IncomingDisableSpotMarketTKey = "IncomingDisableSpotMarket-value-"
-	StakeEquivalenceTKey          = "StakeEquivalence-value-"
+	MarketKey = "Market-value-"
 )
 
 var (
