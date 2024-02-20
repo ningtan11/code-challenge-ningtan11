@@ -1,0 +1,50 @@
+#form-title {
+  color: white
+}
+
+#form-title:hover {
+  color: #7600fd;
+  font-style: bold;
+}
+
+input,
+select {
+  padding: 10px;
+  border-radius: 12px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+select {
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  background: #616161;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  background: #7600fd;
+}
+
+.btn-swap {
+  margin-left: 5px;
+}
+
+.input-from, 
+.input-to {
+  margin-left: 5px;
+}
+
